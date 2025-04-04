@@ -12,3 +12,4 @@ C:\Users\felix.ekendahl\Documents\prog 1\slutprojekt\'\obj\Debug\net8.0\refint\'
 C:\Users\felix.ekendahl\Documents\prog 1\slutprojekt\'\obj\Debug\net8.0\'.pdb
 C:\Users\felix.ekendahl\Documents\prog 1\slutprojekt\'\obj\Debug\net8.0\'.genruntimeconfig.cache
 C:\Users\felix.ekendahl\Documents\prog 1\slutprojekt\'\obj\Debug\net8.0\ref\'.dll
+C:\Users\felix.ekendahl\Documents\prog 1\slutprojekt\'\obj\Debug\net8.0\'.sourcelink.json
