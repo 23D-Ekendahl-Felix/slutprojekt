@@ -1,0 +1,14 @@
+C:\Users\felix.ekendahl\Documents\prog 1\slutprojekt\'\obj\Debug\net8.0\'.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felix.ekendahl\Documents\prog 1\slutprojekt\'\obj\Debug\net8.0\'.AssemblyInfoInputs.cache
+C:\Users\felix.ekendahl\Documents\prog 1\slutprojekt\'\obj\Debug\net8.0\'.AssemblyInfo.cs
+C:\Users\felix.ekendahl\Documents\prog 1\slutprojekt\'\obj\Debug\net8.0\'.csproj.CoreCompileInputs.cache
+C:\Users\felix.ekendahl\Documents\prog 1\slutprojekt\'\bin\Debug\net8.0\'.exe
+C:\Users\felix.ekendahl\Documents\prog 1\slutprojekt\'\bin\Debug\net8.0\'.deps.json
+C:\Users\felix.ekendahl\Documents\prog 1\slutprojekt\'\bin\Debug\net8.0\'.runtimeconfig.json
+C:\Users\felix.ekendahl\Documents\prog 1\slutprojekt\'\bin\Debug\net8.0\'.dll
+C:\Users\felix.ekendahl\Documents\prog 1\slutprojekt\'\bin\Debug\net8.0\'.pdb
+C:\Users\felix.ekendahl\Documents\prog 1\slutprojekt\'\obj\Debug\net8.0\'.dll
+C:\Users\felix.ekendahl\Documents\prog 1\slutprojekt\'\obj\Debug\net8.0\refint\'.dll
+C:\Users\felix.ekendahl\Documents\prog 1\slutprojekt\'\obj\Debug\net8.0\'.pdb
+C:\Users\felix.ekendahl\Documents\prog 1\slutprojekt\'\obj\Debug\net8.0\'.genruntimeconfig.cache
+C:\Users\felix.ekendahl\Documents\prog 1\slutprojekt\'\obj\Debug\net8.0\ref\'.dll
