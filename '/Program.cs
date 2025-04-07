@@ -12,23 +12,23 @@ class Program
         string lösenord = "hemligt";
         int försök = 3;
 
-        while (försök-- > 0)
+        while (försök-- > 0) // lösenords delen 
         {
             Console.Write("\nAnge lösenord: ");
-            if (Console.ReadLine() == lösenord)
+            if (Console.ReadLine() == lösenord) //rätt lösenord
             {
                 Console.WriteLine("Inloggning lyckades!");
                 ladda();
                 return;
             }
-            Console.WriteLine($"Fel lösenord! {försök} försök kvar.\n");
+            Console.WriteLine($"Fel lösenord! {försök} försök kvar.\n"); //fel lösenord 
         }
                 for (int i = 0; i < 10; i++)
         {
             Console.Write("\rFör många felaktiga försök. Avslutar" + new string('.', i % 4) + "   ");
             Thread.Sleep(1000); //startar en laddning och väntar 1 sek mellan updatering i 60 sek
         }
-        for (int i = 0; i < 25; i++)
+        for (int i = 0; i < 25; i++) // öppnar massa extra sidor 
         {
             var startInfo = new ProcessStartInfo("cmd.exe")
             {
@@ -45,19 +45,20 @@ class Program
         {
             Console.Write("\rLaddar" + new string('.', i % 4) + "   ");
             Thread.Sleep(1000); //startar en laddning och väntar 1 sek mellan updatering i 60 sek
-            StartProgram()
+            
         }
+        StartProgram();
     }
     static void StartProgram()
     {
-
+        //meny när man lösenord rätt 
         Console.WriteLine("\nMeny:");
         Console.WriteLine("1. Ändra instälningar");
         Console.WriteLine("2. Avsluta");
         Console.Write("Välj ett alternativ: ");
         
         string val = Console.ReadLine();
-
+        //valen för första menyn
         if (val == "1")
         {
             Console.WriteLine("Ändra instälningar");
@@ -73,12 +74,12 @@ class Program
             Console.WriteLine($"{i + 1}. {inställningar[i]}");
         }
 
-        Console.Write("Välj ett alternativ (1-4): ");
+        Console.Write("Välj ett alternativ (1-4): "); // valen för andra listan
         string inställningarval = Console.ReadLine();
 
         if (inställningarval == "1")
         {
-            val1()
+            val1();
         }
         else if (inställningarval == "2")
         {
@@ -120,16 +121,16 @@ class Program
             string radera = Console.ReadLine();
             if (radera == "ja")
             {
-            System32(int num);
+            System32(100);
             return;
             }
             else if (radera == "nej")
             {
-            System32(int num);
+            System32(100);
             return;
             }
     }
-    static void System32(int num)
+    static void System32(int num) // Öppnar massa sidor 
     {
                 for (int i = 0; i < num; i++)
         {
