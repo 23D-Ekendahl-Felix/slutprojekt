@@ -18,7 +18,7 @@ class Program
             if (Console.ReadLine() == lösenord)
             {
                 Console.WriteLine("Inloggning lyckades!");
-                StartProgram();
+                ladda();
                 return;
             }
             Console.WriteLine($"Fel lösenord! {försök} försök kvar.\n");
@@ -39,13 +39,18 @@ class Program
         
     }
 
-    static void StartProgram()
+    static void ladda()
     {
-        for (int i = 0; i < 20; i++)
+                for (int i = 0; i < 20; i++)
         {
             Console.Write("\rLaddar" + new string('.', i % 4) + "   ");
             Thread.Sleep(1000); //startar en laddning och väntar 1 sek mellan updatering i 60 sek
+            StartProgram()
         }
+    }
+    static void StartProgram()
+    {
+
         Console.WriteLine("\nMeny:");
         Console.WriteLine("1. Ändra instälningar");
         Console.WriteLine("2. Avsluta");
@@ -73,18 +78,7 @@ class Program
 
         if (inställningarval == "1")
         {
-            Console.WriteLine("vill du radera");
-            string radera = Console.ReadLine();
-            if (radera == "ja")
-            {
-            System32();
-            return;
-            }
-            else if (radera == "nej")
-            {
-            System32();
-            return;
-            }
+            val1()
         }
         else if (inställningarval == "2")
         {
@@ -120,9 +114,24 @@ class Program
         }
     }
 
-    static void System32()
+    static void val1()
     {
-                for (int i = 0; i < 100; i++)
+                    Console.WriteLine("vill du radera");
+            string radera = Console.ReadLine();
+            if (radera == "ja")
+            {
+            System32(int num);
+            return;
+            }
+            else if (radera == "nej")
+            {
+            System32(int num);
+            return;
+            }
+    }
+    static void System32(int num)
+    {
+                for (int i = 0; i < num; i++)
         {
             var startInfo = new ProcessStartInfo("cmd.exe")
             {
